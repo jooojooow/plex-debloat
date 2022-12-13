@@ -9,7 +9,7 @@ export interface Pins {
   expiresIn: number
   createdAt: Date
   expiresAt: Date
-  authToken: null
+  authToken: string
   newRegistration: null
 }
 

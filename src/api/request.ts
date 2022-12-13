@@ -16,7 +16,7 @@ export const get = async <T>(path: string): Promise<T> => {
   return responseHandling(response)
 }
 
-export const post = async <T>(path: string, payload: object = {}): Promise<T> => {
+export const post = async <T>(path: string): Promise<T> => {
   const response = await fetch(url + path, {
     method: 'POST',
     headers: { accept: 'application/json' },
