@@ -44,6 +44,7 @@ specifiers:
   vue-demi: ^0.13.11
   vue-i18n: ^9.2.2
   vue-router: ^4.1.6
+  vue-toast-notification: ^3.0
   vue-tsc: ^1.0.10
 
 dependencies:
@@ -56,6 +57,7 @@ dependencies:
   vue-demi: 0.13.11_vue@3.2.45
   vue-i18n: 9.2.2_vue@3.2.45
   vue-router: 4.1.6_vue@3.2.45
+  vue-toast-notification: 3.0.4_vue@3.2.45
 
 devDependencies:
   '@antfu/eslint-config': 0.33.0_hsf322ms6xhhd4b5ne6lb74y4a
@@ -8725,6 +8727,15 @@ packages:
       de-indent: 1.0.2
       he: 1.2.0
     dev: true
+
+  /vue-toast-notification/3.0.4_vue@3.2.45:
+    resolution: {integrity: sha512-rEhLtcKg8SVdBpdN7PrNst5nmY8dw0j3NkNImqurhlGurqR/QDKoou0t2PuCReEOCTKqHvfLCle2I3kwQWDWDQ==}
+    engines: {node: '>=12.15.0'}
+    peerDependencies:
+      vue: ^3.0
+    dependencies:
+      vue: 3.2.45
+    dev: false
 
   /vue-tsc/1.0.10_typescript@4.9.3:
     resolution: {integrity: sha512-o6ek6ZSDwpVWn7/ZXlIILfCZ18o7ypEYKMDynsyPj9m10/ALXkCLKIj9yVfx00QAX5Z/hKrdhYcA2ZaQ0+U7Kg==}
